@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
+	<title>pixil-frame-0(6)</title>
+	<defs>
+		<image  width="29" height="39" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAnAgMAAACOHKtXAAAAAXNSR0IB2cksfwAAAAlQTFRFAAAAAP8NGhocDvB2owAAAAN0Uk5TAP//RFDWIQAAAMNJREFUeJxjZA1gAIL/axilJoAZ4YxZDiAGwzTGTIc3R/4KGy4DMj7+F9xjAmS8cTgSuMEBJuIyDczYC1ID1wU3hzVA9DXYZAYGKbUDQDEgg80KymC0hzIYHGAMMEBmCHz8D2GkLAJpAzIyPz4DMxhXMjwrQGGwLWH4FQNmTDlvDWEs/sgFZgAd9D+cAAPk+mkH0BnT/x+AMOZ4FUBF/EEMoJuvgxl/HI68sQIypHwcDjtOAypmTQC6eTXIqSEbrYFOBQCSVVfouNIUKQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="5" y="1"/>
+</svg>

@@ -1,0 +1,32 @@
+\html {
+  background-color:#ff4a4a;
+  color:#000000;
+  font-family:verdana;
+}
+::selection {
+  background-color:#710001;
+  color:#FF9597
+}
+#content {
+  max-width:1000px;
+  margin-left:auto;
+  margin-right:auto;
+}
+#abouttext {
+	 max-width:auto;
+	 margin-left:auto;
+	 margin-right:30px;
+}
+.pagination {
+  display:flex;
+  justify-content:space-between
+}
+#site_header {
+  padding-bottom:6px;
+  text-align: center;
+  border-bottom:1px solid #4B0000
+}
+#welcome {
+  padding-bottom:6px;
+  text-align: center;
+}

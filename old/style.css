@@ -1,0 +1,66 @@
+.frame-1,
+.frame-1 * {
+  box-sizing: border-box;
+}
+.frame-1 {
+  background: #1a1a1c;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+.technet {
+  color: #00ff0d;
+  text-align: left;
+  font-family: "Jersey20-Regular", sans-serif;
+  font-size: 115px;
+  font-weight: 400;
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  width: 468px;
+  height: 88px;
+}
+.pixil-frame-0-5-1 {
+  width: 619px;
+  height: 619px;
+  position: absolute;
+  left: 20px;
+  top: 238px;
+  object-fit: cover;
+}
+.welcome-to-my-page {
+  color: #00ff0d;
+  text-align: left;
+  font-family: "Jersey20-Regular", sans-serif;
+  font-size: 115px;
+  font-weight: 400;
+  position: absolute;
+  left: 815px;
+  top: 238px;
+  width: 940px;
+  height: 128px;
+}
+.this-site-is-a-work-in-progress-this-is-the-new-landing-page-for-it-different-text-will-be-here-this-is-almost-a-lorem-ipsum-of-sorts-lol {
+  color: #00ff0d;
+  text-align: left;
+  font-family: "Jersey20-Regular", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  position: absolute;
+  left: 815px;
+  top: 452px;
+  width: 943px;
+  height: 530px;
+}
+.gay {
+  color: #00ff0d;
+  text-align: left;
+  font-family: "Jersey20-Regular", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  position: absolute;
+  left: 384px;
+  top: 40px;
+  width: 943px;
+  height: 530px;
+}
