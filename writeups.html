@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vars.css">
+  <link rel="stylesheet" href="./style.css">
+	<meta property="og:title" content="technet.gay">
+    <meta property="og:description" content="A collection of nerd stuff, most of which is garbage.">
+    <meta property="og:url" content="technet.gay">
+    <meta property="og:site_name" content="technet">
+    <meta name="article:author" content="technet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+
+    a,
+    button,
+    input,
+    select,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    * {
+      font-family: "Jersey 20", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      border: none;
+      text-decoration: none;
+      background: none;
+
+      -webkit-font-smoothing: antialiased;
+    }
+
+    menu,
+    ol,
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Global styling */
+    body {
+      background-color: #1a1a1c;
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+    }
+
+    /* Header styling */
+    .header {
+      padding: 10px 2%;
+      text-align: Left;
+    }
+
+    .technet {
+      color: #00ff0d;
+	  display: inline-block;
+      font-family: "Jersey 20", sans-serif;
+      font-size: 100px;
+      font-weight: 400;
+    }
+ /* unvisited link */
+a:link {
+  color: #00ff0d;
+}
+
+/* visited link */
+a:visited {
+  color: #00A307;
+}
+
+/* mouse over link */
+a:hover {
+  color: #00ff0d;
+}
+
+/* selected link */
+a:active {
+  color: #00ff0d;
+} 
+    .gay {
+      color: #00ff0d;
+      font-family: "Jersey 20", sans-serif;
+      font-size: 64px;
+      font-weight: 400;
+      margin-top: 10px;
+    }
+
+    /* Flexbox layout for main content */
+    .frame-1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 40px;
+      flex-wrap: wrap;
+    }
+	 .menu-buttons {
+	  color: #00ff0d;
+      font-family: "Jersey 20", sans-serif;
+	  font-size: 80px;
+      font-weight: 400;
+	  display: inline-block;
+      padding: 3rem 6rem;
+		}
+    .pixil-frame-0-5-1 {
+      width: 40%;
+      height: auto;
+      object-fit: cover;
+      margin-right: 5%;
+    }
+
+    .text-container {
+      width: 50%;
+    }
+
+    .welcome-to-my-page {
+      color: #00ff0d;
+      font-family: "Jersey 20", sans-serif;
+      font-size: 64px;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+
+    .this-site-is-a-work-in-progress {
+      color: #00ff0d;
+      font-family: "Jersey 20", sans-serif;
+      font-size: 32px;
+      font-weight: 400;
+    }
+
+    /* Media Queries for Responsive Design */
+
+    /* For screens less than 768px (tablet/mobile) */
+    @media (max-width: 768px) {
+      .frame-1 {
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .pixil-frame-0-5-1 {
+        width: 100%;
+        margin: 0;
+      }
+
+      .text-container {
+        width: 100%;
+        margin-top: 20px;
+      }
+
+    .header {
+      padding: 20px 20px;
+      text-align: center;
+    }
+      .technet {
+        font-size: 10vw;
+      }
+
+      .gay {
+        font-size: 8vw;
+      }
+	  .menu-buttons {
+		display: none;
+		}
+      .welcome-to-my-page {
+        font-size: 8vw;
+      }
+
+      .this-site-is-a-work-in-progress {
+        font-size: 4vw;
+      }
+    }
+      }
+    /* For very small mobile screens */
+    @media (max-width: 480px) {
+      .technet {
+        font-size: 12vw;
+      }
+
+      .gay {
+        font-size: 9vw;
+      }
+	  .menu-buttons {
+		display: none;
+		}
+
+      .welcome-to-my-page {
+        font-size: 10vw;
+      }
+
+      .this-site-is-a-work-in-progress {
+        font-size: 5vw;
+      }
+    }
+  </style>
+  <title>Technet.gay</title>
+</head>
+
+<body>
+
+  <!-- header -->
+<div class="header">
+  <div class="technet"><a href="/" class="active">Technet.gay</a></div> <div class="menu-buttons">Write-Ups</div>
+	</div>
+    
+  <!-- content -->
+  <div class="frame-1">
+    <img class="pixil-frame-0-5-1" src="assets/hack-cat.png" alt="Pixel art image of Cat" />
+    <div class="text-container">
+      <div class="welcome-to-my-page">
+        Welcome to my Write-ups!
+      </div>
+      <div class="this-site-is-a-work-in-progress">
+        This site is a work in progress, This is the Write-ups Section <br /><br />
+        This will be the hub for all of my write-ups<br /><br />
+		Expect many different variations to appear, as I try to get everything perfect
+      </div>	
+    </div>
+  </div>
+
+</body>
+
+</html>

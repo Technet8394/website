@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vars.css">
+  <link rel="stylesheet" href="./style.css"> <!-- Ensure this is the merged CSS file -->
+  <meta property="og:title" content="technet.gay">
+  <meta property="og:description" content="A collection of nerd stuff, most of which is garbage.">
+  <meta property="og:url" content="technet.gay">
+  <meta property="og:site_name" content="technet">
+  <meta name="article:author" content="technet">
+  <title>Technet.gay</title>
+	<style>   
+		@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+	</style>
+</head>
+
+<body>
+
+  <!-- header -->
+  <div class="header">
+    <div class="header-content">
+      <div class="technet">Technet.gay</div>
+
+      <!-- Full menu container for larger screens -->
+      <div class="menu-container">
+        <div class="menu-buttons"><a href="/writeups" class="active">Write-Ups</a></div>
+        <div class="menu-buttons"><a href="/projects" class="active">Projects</a></div>
+        <div class="menu-buttons"><a href="/contact" class="active">Contact</a></div>
+      </div>
+
+      <!-- Hamburger icon for mobile, aligned with the Technet.gay header -->
+      <img src="assets/ham.png" alt="Menu" class="ham" onclick="toggleMenu()" />
+    </div>
+
+    <!-- Hidden menu for mobile screens -->
+    <div id="mobileMenu" class="menu">
+      <a href="/writeups">Write-Ups</a>
+      <a href="/projects">Projects</a>
+      <a href="/contact">Contact</a>
+    </div>
+  </div>
+
+  <!-- content -->
+  <div class="frame-1">
+    <img class="pixil-frame-0-5-1" src="assets/meow-cat.png" alt="Pixel art image of Cat" />
+    <div class="text-container">
+      <div class="welcome-to-my-page">
+        Welcome to my page!
+      </div>
+      <div class="this-site-is-a-work-in-progress">
+        This site is a work in progress, This is the new landing page for it! <br /><br />
+        Different text will be here, this is almost a Lorem Ipsum of sorts lol.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById('mobileMenu');
+      if (menu.style.display === 'block') {
+        menu.style.display = 'none';
+      } else {
+        menu.style.display = 'block';
+      }
+    }
+  </script>
+
+</body>
+
+</html>
